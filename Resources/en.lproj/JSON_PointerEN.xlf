@@ -91,7 +91,7 @@
 		<!-- Startup splash -->
 		<trans-unit id="11" resname="HDI_Title">
 		<source>Do you know how to use JSON pointers in objects?</source>
-		<target>Do you know how to use JSON pointers in objects?</target>
+		<target>Use JSON pointers in objects?</target>
 		</trans-unit>
 		<trans-unit id="12" resname="BtnClose">
 		<source>Close</source>
