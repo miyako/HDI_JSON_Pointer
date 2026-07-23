@@ -194,7 +194,7 @@
 					"top": 219,
 					"left": 680,
 					"width": 100,
-					"height": 22,
+					"class": "default1",
 					"text": "Resolve",
 					"focusable": false,
 					"method": "ObjectMethods/btnResolveExp1.4dm",
@@ -212,14 +212,14 @@
 					"left": 491,
 					"width": 154,
 					"height": 65,
-					"fill": "#B1C4DD"
+					"class": "callout"
 				},
 				"btnResolveExp2": {
 					"type": "button",
 					"top": 205,
 					"left": 680,
 					"width": 100,
-					"height": 22,
+					"class": "default1",
 					"text": "Resolve",
 					"focusable": false,
 					"method": "ObjectMethods/btnResolveExp2.4dm",
@@ -264,7 +264,7 @@
 					"top": 219,
 					"left": 680,
 					"width": 100,
-					"height": 22,
+					"class": "default1",
 					"text": "Resolve",
 					"focusable": false,
 					"method": "ObjectMethods/btnResolveExp3.4dm",
@@ -278,7 +278,7 @@
 					"left": 483,
 					"width": 162,
 					"height": 33,
-					"fill": "#B1C4DD"
+					"class": "callout"
 				},
 				"btnPatch": {
 					"type": "checkbox",

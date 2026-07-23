@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file datatype="plaintext" original="Project/Sources/Forms" source-language="en" target-language="ja">
+  <file datatype="plaintext" original="Project/Sources/Forms" source-language="en" target-language="en">
     <header>
       <note/>
     </header>
@@ -11,15 +11,15 @@
 		<group resname="HDI">
 		<trans-unit id="1" resname="BtnDemo">
 		<source>Demo</source>
-		<target>スタート</target>
+		<target>Demo</target>
 		</trans-unit>
 		<trans-unit id="2" resname="TxtVersion">
 		<source>{version} and above</source>
-		<target>{version} 以降...</target>
+		<target>{version} and above</target>
 		</trans-unit>
 		<trans-unit id="3" resname="labelVersion">
 		<source>Version:</source>
-		<target>バージョン:</target>
+		<target>Version:</target>
 		</trans-unit>
 		<trans-unit id="4" resname="labelBlog">
 		<source>Blog:</source>
@@ -27,7 +27,7 @@
 		</trans-unit>
 		<trans-unit id="5" resname="labelInfo">
 		<source>Info:</source>
-		<target>概要:</target>
+		<target>Info:</target>
 		</trans-unit>
 		<trans-unit id="6" resname="txtTitle">
 		<source>• title •</source>
@@ -35,32 +35,33 @@
 		</trans-unit>
 		<trans-unit id="7" resname="Text">
 		<source>How do I…</source>
-		<target>どうやって...</target>
+		<target>How do I…</target>
 		</trans-unit>
 		<trans-unit id="8" resname="ErrorMainText">
 		<source>Sorry, this "How do I" (HDI) example must
 		be used with a newer version of 4D
 		({version} and above)</source>
-		<target>申し訳ありません。この"How do I..." (HDI) サンプルは、より新しいバージョンの4D（{version}　以降）で開く必要があります。</target>
+		<target>Sorry, this "How do I" (HDI) example must
+		be used with a newer version of 4D
+		({version} and above)</target>
 		</trans-unit>
 		<trans-unit id="9" resname="ErrorSubText">
 		<source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-		<target>このHDIをデザインモードで開かないでください。
-開いてしまった場合、フォームやメソッドが不完全になってしまう恐れがあります。</target>
+		<target>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
 		</trans-unit>
 		</group>
 		<group resname="HDI2">
 		<trans-unit id="1" resname="ResultJSON">
 		<source>Result:</source>
-		<target>結果:</target>
+		<target>Result:</target>
 		</trans-unit>
 		<trans-unit id="2" resname="btnResolveExp1">
 		<source>Resolve</source>
-		<target>解決する</target>
+		<target>Resolve</target>
 		</trans-unit>
 		<trans-unit id="3" resname="btnResolveExp2">
 		<source>Resolve</source>
-		<target>解決する</target>
+		<target>Resolve</target>
 		</trans-unit>
 		<trans-unit id="4" resname="btnBlackFolder">
 		<source>./Images/BLACK/</source>
@@ -72,11 +73,11 @@
 		</trans-unit>
 		<trans-unit id="6" resname="btnResolveExp3">
 		<source>Resolve</source>
-		<target>解決する</target>
+		<target>Resolve</target>
 		</trans-unit>
 		<trans-unit id="7" resname="btnPatch">
 		<source>Merge option</source>
-		<target>Merge オプション</target>
+		<target>Merge option</target>
 		</trans-unit>
 		</group>
 		</group>
@@ -84,33 +85,33 @@
 		<!-- Menus -->
 		<trans-unit id="10" resname="MenuItemDemo">
 		<source>Demo</source>
-		<target>デモ</target>
+		<target>Demo</target>
 		</trans-unit>
 
 		<!-- Startup splash -->
 		<trans-unit id="11" resname="HDI_Title">
 		<source>Do you know how to use JSON pointers in objects?</source>
-		<target>オブジェクトに含まれる JSON ポインターを使うの？</target>
+		<target>Do you know how to use JSON pointers in objects?</target>
 		</trans-unit>
 		<trans-unit id="12" resname="BtnClose">
 		<source>Close</source>
-		<target>閉じる</target>
+		<target>Close</target>
 		</trans-unit>
 		<trans-unit id="13" resname="ErrorViewProMain">
 		<source>Sorry, this "How do I" (HDI) example demonstrates a 4D View Pro feature.</source>
-		<target>この "How do I..." (HDI)サンプルには 4D View Pro の機能のデモが含まれます。</target>
+		<target>Sorry, this "How do I" (HDI) example demonstrates a 4D View Pro feature.</target>
 		</trans-unit>
 		<trans-unit id="14" resname="ErrorViewProSub">
 		<source>You must have a valid 4D View Pro license to continue.</source>
-		<target>申し訳ありませんが、4D View Pro のライセンスが必要です。</target>
+		<target>You must have a valid 4D View Pro license to continue.</target>
 		</trans-unit>
 		<trans-unit id="15" resname="ErrorWriteProMain">
 		<source>Sorry, this "How do I" (HDI) example demonstrates a 4D Write Pro feature.</source>
-		<target>この "How do I..." (HDI)サンプルには 4D Write Pro の機能のデモが含まれます。</target>
+		<target>Sorry, this "How do I" (HDI) example demonstrates a 4D Write Pro feature.</target>
 		</trans-unit>
 		<trans-unit id="16" resname="ErrorWriteProSub">
 		<source>You must have a valid 4D Write Pro license to continue.</source>
-		<target>申し訳ありませんが、4D Write Pro のライセンスが必要です。</target>
+		<target>You must have a valid 4D Write Pro license to continue.</target>
 		</trans-unit>
 
     </body>

@@ -4,17 +4,16 @@
 // * Show or Hide some form object
 // * Add some color to JSON text
 
-C_LONGINT:C283($page; $pos; $length)
-C_TEXT:C284($typeInterface)
-C_TEXT:C284($txtTmp)
+#DECLARE($page : Integer; $folderColor : Text)
+
+var $pos; $length : Integer
+var $typeInterface; $txtTmp : Text
 
 
 
 OBJECT SET VISIBLE:C603(*; "oConfig"; True:C214)
 OBJECT SET VISIBLE:C603(*; "oMyConfig"; True:C214)
 OBJECT SET VISIBLE:C603(*; "Splitter"; True:C214)
-
-$page:=$1
 
 Case of 
 		

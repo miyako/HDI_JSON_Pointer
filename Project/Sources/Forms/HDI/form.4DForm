@@ -29,6 +29,7 @@
 					"height": 560,
 					"sizingX": "grow",
 					"sizingY": "grow",
+					"fill": "automatic",
 					"stroke": "transparent"
 				},
 				"Rectangle": {
@@ -37,7 +38,7 @@
 					"left": 0,
 					"width": 724,
 					"height": 364,
-					"fill": "#C0C0C0",
+					"class": "panel-background",
 					"stroke": "transparent"
 				}
 			}
@@ -49,13 +50,13 @@
 					"top": 520,
 					"left": 614,
 					"width": 90,
-					"height": 20,
 					"action": "Accept",
 					"shortcutKey": "[Return]",
 					"text": "Demo",
 					"class": "default1",
 					"focusable": false,
 					"defaultButton": true,
+					"method": "ObjectMethods/BtnDemo.4dm",
 					"events": [
 						"onClick"
 					]
@@ -84,7 +85,7 @@
 					"left": 130,
 					"width": 300,
 					"height": 17,
-					"stroke": "#696969",
+					"stroke": "automatic",
 					"text": "{version} and above"
 				},
 				"labelVersion": {
@@ -93,7 +94,7 @@
 					"left": 20,
 					"width": 100,
 					"height": 17,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
 					"text": "Version:"
@@ -104,7 +105,7 @@
 					"left": 20,
 					"width": 100,
 					"height": 17,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
 					"text": "Blog:"
@@ -115,7 +116,7 @@
 					"left": 20,
 					"width": 100,
 					"height": 17,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "right",
 					"fontWeight": "bold",
 					"text": "Info:"
@@ -127,7 +128,7 @@
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.blog",
-					"stroke": "#1E90FF",
+					"class": "link-text",
 					"textDecoration": "underline",
 					"focusable": false,
 					"fill": "transparent",
@@ -147,7 +148,7 @@
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.info",
-					"stroke": "#696969",
+					"stroke": "automatic",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -173,7 +174,7 @@
 					"left": 160,
 					"width": 544,
 					"height": 50,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "left",
 					"fontFamily": "System Font",
 					"fontSize": 18,
@@ -185,7 +186,7 @@
 					"left": 160,
 					"width": 544,
 					"height": 37,
-					"stroke": "#212121",
+					"stroke": "automatic",
 					"textAlign": "left",
 					"fontFamily": "System Font",
 					"fontSize": 30,
@@ -208,6 +209,7 @@
 					"width": 353,
 					"height": 81,
 					"visibility": "hidden",
+					"stroke": "automatic",
 					"textAlign": "center",
 					"fontTheme": "main",
 					"text": "Sorry, this \"How do I\" (HDI) example must\rbe used with a newer version of 4D\r({version} and above)"
@@ -219,6 +221,7 @@
 					"width": 360,
 					"height": 80,
 					"visibility": "hidden",
+					"stroke": "automatic",
 					"textAlign": "center",
 					"text": "Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
 				}
