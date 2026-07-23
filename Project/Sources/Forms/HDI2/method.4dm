@@ -5,8 +5,8 @@ Case of
 	: (Form event code:C388=On Load:K2:1)
 		initHDI
 		
-		C_TEXT:C284($txtTmp)
-		C_OBJECT:C1216(oConfig)
+		var $txtTmp : Text
+		var oConfig : Object
 		
 		OBJECT Get pointer:C1124(Object named:K67:5; "btnPatch")->:=0
 		OBJECT Get pointer:C1124(Object named:K67:5; "varTxt")->:=TextTabControl{TabControl}

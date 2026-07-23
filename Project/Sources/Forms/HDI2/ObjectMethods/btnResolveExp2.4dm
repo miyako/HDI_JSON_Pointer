@@ -1,6 +1,5 @@
-C_TEXT:C284($folder)
-C_TEXT:C284($txtTmp)
-C_OBJECT:C1216($oMyConfig; $options; $oResult)
+var $folder; $txtTmp : Text
+var $oMyConfig; $options; $oResult : Object
 
 
 // compute the root folder where the JSON file is stored

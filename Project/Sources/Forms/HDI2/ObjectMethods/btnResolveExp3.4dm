@@ -1,5 +1,5 @@
-C_OBJECT:C1216($oMyConfig; $options; $oResult)
-C_TEXT:C284($txtTmp)
+var $oMyConfig; $options; $oResult : Object
+var $txtTmp : Text
 
 // duplicate the oConfig object to keep the original version
 $oMyConfig:=OB Copy:C1225(oConfig)
