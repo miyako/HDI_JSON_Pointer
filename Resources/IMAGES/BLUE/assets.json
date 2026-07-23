@@ -1,0 +1,18 @@
+{
+	"buttonAdd": {
+		"path": "IMAGES/BLUE/add.png",
+		"name": "Add"
+		},
+	"buttonRemove": {
+		"path": "IMAGES/BLUE/remove.png",
+		"name": "Remove"
+		},
+	"buttonCancel": {
+		"path": "IMAGES/BLUE/cancel.png",
+		"name": "Cancel"
+		},
+	"buttonValidate": {
+		"path": "IMAGES/BLUE/validate.png",
+		"name": "Validate"
+		}
+}

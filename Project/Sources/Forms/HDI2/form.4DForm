@@ -1,0 +1,316 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"TabControl": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 780,
+					"height": 670,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"varTxt": {
+					"type": "input",
+					"top": 60,
+					"left": 40,
+					"width": 723,
+					"height": 605,
+					"sizingX": "grow",
+					"fontFamily": "System Font Regular",
+					"fontSize": 13,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oConfig": {
+					"type": "input",
+					"top": 290,
+					"left": 40,
+					"width": 350,
+					"height": 129,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"focusable": false,
+					"enterable": false,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oMyConfig": {
+					"type": "input",
+					"top": 290,
+					"left": 430,
+					"width": 350,
+					"height": 381,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"focusable": false,
+					"enterable": false,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Splitter": {
+					"type": "splitter",
+					"top": 261,
+					"left": 410,
+					"width": 4,
+					"height": 411,
+					"visibility": "hidden",
+					"sizingY": "grow",
+					"events": [
+						"onClick"
+					]
+				},
+				"JSONfileName": {
+					"type": "input",
+					"top": 261,
+					"left": 40,
+					"width": 350,
+					"height": 17,
+					"sizingX": "grow",
+					"textDecoration": "underline",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"oRefConfig": {
+					"type": "input",
+					"top": 483,
+					"left": 40,
+					"width": 350,
+					"height": 189,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"focusable": false,
+					"enterable": false,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"JSONRefFileName": {
+					"type": "input",
+					"top": 451,
+					"left": 40,
+					"width": 350,
+					"height": 17,
+					"sizingX": "grow",
+					"textDecoration": "underline",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"ResultJSON": {
+					"type": "text",
+					"top": 261,
+					"left": 430,
+					"width": 350,
+					"height": 17,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"textDecoration": "underline",
+					"text": "Result:"
+				},
+				"SplitterH": {
+					"type": "splitter",
+					"top": 436,
+					"left": 40,
+					"width": 350,
+					"height": 5,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		null,
+		{
+			"objects": {
+				"btnResolveExp1": {
+					"type": "button",
+					"top": 219,
+					"left": 680,
+					"width": 100,
+					"height": 22,
+					"text": "Resolve",
+					"focusable": false,
+					"method": "ObjectMethods/btnResolveExp1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 162,
+					"left": 491,
+					"width": 154,
+					"height": 65,
+					"fill": "#B1C4DD"
+				},
+				"btnResolveExp2": {
+					"type": "button",
+					"top": 205,
+					"left": 680,
+					"width": 100,
+					"height": 22,
+					"text": "Resolve",
+					"focusable": false,
+					"method": "ObjectMethods/btnResolveExp2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnBlackFolder": {
+					"type": "radio",
+					"top": 169,
+					"left": 500,
+					"width": 160,
+					"height": 26,
+					"text": "./Images/BLACK/",
+					"focusable": false,
+					"radioGroup": "Group1",
+					"method": "ObjectMethods/btnBlackFolder.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnBlueFolder": {
+					"type": "radio",
+					"top": 192,
+					"left": 500,
+					"width": 160,
+					"height": 26,
+					"text": "./Images/BLUE/",
+					"focusable": false,
+					"radioGroup": "Group1",
+					"method": "ObjectMethods/btnBlueFolder.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"btnResolveExp3": {
+					"type": "button",
+					"top": 219,
+					"left": 680,
+					"width": 100,
+					"height": 22,
+					"text": "Resolve",
+					"focusable": false,
+					"method": "ObjectMethods/btnResolveExp3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 182,
+					"left": 483,
+					"width": 162,
+					"height": 33,
+					"fill": "#B1C4DD"
+				},
+				"btnPatch": {
+					"type": "checkbox",
+					"top": 187,
+					"left": 494,
+					"width": 151,
+					"height": 22,
+					"text": "Merge option",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group1": [
+				"btnBlackFolder",
+				"btnBlueFolder"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"geometryStamp": 8,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

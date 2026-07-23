@@ -1,0 +1,7 @@
+{
+	"right": { 
+		"$ref": "defaultSettings.json#/defaultRight",
+		"delete": true,
+		"color": 42
+	}
+}

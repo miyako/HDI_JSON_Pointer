@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="8">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<server>
+			<network>
+				<options publish_at_startup="false" use_legacy_network_layer="false"/>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<interface>
+			<user splash_screen="false"/>
+		</interface>
+		<general startup_environnement="1"/>
+		<compiler>
+			<options compilation_path="3"/>
+		</compiler>
+		<web>
+			<standalone_server>
+				<configuration session_mode="3" automatic_session_management="true"/>
+			</standalone_server>
+			<remote>
+				<configuration session_mode="3" automatic_session_management="true"/>
+			</remote>
+		</web>
+		<database>
+			<misc standard_xpath="false" non_blocking_printing="false" legacy_print_rendering="true"/>
+		</database>
+	</com.4d>
+</preferences>

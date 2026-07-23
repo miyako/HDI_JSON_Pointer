@@ -1,0 +1,10 @@
+{
+    "lastname": "Doe",
+    "firstname": "John",
+    "billingAddress": { 
+        "street": "95 S. Market Street",
+        "city": "San Jose",
+        "state": "California"
+    },
+    "shippingAddress": { "$ref": "#/billingAddress" }
+}

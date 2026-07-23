@@ -1,0 +1,1 @@
+prettyHDI(3; "BLUE")

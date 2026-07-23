@@ -1,0 +1,7 @@
+{
+	"button1": { "$ref": "assets.json#/buttonAdd"},
+	"button2": { "$ref": "assets.json#/buttonRemove"},
+	"button3": { "$ref": "assets.json#/buttonValidate"},
+	"button4": { "$ref": "assets.json#/buttonCancel"}
+}
+
