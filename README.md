@@ -48,9 +48,9 @@ The landing form `HDI` is the standard splash screen: `ObjectMethods/BtnDemo.4dm
 
 Converted from the binary `.4DB` to a 4D project. The following branch tracks the modernisation work.
 
-| Branch | Description | Instructions |
-|--------|-------------|--------------|
-| [`miyako-hdi-project-modernisation`](../../tree/miyako-hdi-project-modernisation) | Hid subroutine/form-dependent methods from the Run Method dialog, added English/Japanese XLIFF localisation, replaced deprecated `C_*` declarations with `var`/`#DECLARE`, migrated the menu bar and startup dialog to modern patterns, and added Dark Mode/Liquid Glass support. | [method.visibility.instructions.md](.github/instructions/method.visibility.instructions.md), [localisation.instructions.md](.github/instructions/localisation.instructions.md), [variable.declarations.instructions.md](.github/instructions/variable.declarations.instructions.md), [menu.instructions.md](.github/instructions/menu.instructions.md), [startup.instructions.md](.github/instructions/startup.instructions.md), [css.instructions.md](.github/instructions/css.instructions.md), [tahoe.css.instructions.md](.github/instructions/tahoe.css.instructions.md) |
+| Branch | Description | Guidance |
+|--------|-------------|----------|
+| [`miyako-hdi-project-modernisation`](../../tree/miyako-hdi-project-modernisation) | Hid subroutine/form-dependent methods from the Run Method dialog, added English/Japanese XLIFF localisation, replaced deprecated `C_*` declarations with `var`/`#DECLARE`, migrated the menu bar and startup dialog to modern patterns, and added Dark Mode/Liquid Glass support. | [`4dmethods`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dmethods), [`4dlocalise`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dlocalise), [`4dmodernise`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dmodernise), [`4dproject`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dproject), [`4dstartup`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dstartup), [hdi.startup.instructions.md](.github/instructions/hdi.startup.instructions.md), [`4dcss`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dcss) |
 
 ## References
 
